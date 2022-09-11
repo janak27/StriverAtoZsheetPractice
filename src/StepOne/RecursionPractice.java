@@ -20,7 +20,7 @@ public class RecursionPractice {
         return checkPalindrone(i + 1,arr);
     }
 
-    private static void reversearr2(int i, int n, int[] arr) {
+    static void reversearr2(int i, int n, int[] arr) {
         if (i >= n/2) return;
         int temp;
         temp = arr[i];
@@ -41,7 +41,7 @@ public class RecursionPractice {
 
 
 
-    private static void factor2(int n, int fact) {
+    static void factor2(int n, int fact) {
         if (n==1){
             System.out.println(fact);
             return;
@@ -50,19 +50,19 @@ public class RecursionPractice {
 
     }
 
-    private static int factor(int n) {
+    static int factor(int n) {
         if(n==0) return 1;
         return n* factor(n-1);
     }
 
-    private static int sumofonetonfunctional(int n) {
+    static int sumofonetonfunctional(int n) {
         if (n==0) {
             return 0;
         };
         return n + sumofonetonfunctional(n-1);
     }
 
-    private static void sumofoneton(int i, int sum) {//parameterized recursion
+    static void sumofoneton(int i, int sum) {//parameterized recursion
         if (i<1) {
             System.out.println(sum);
             return;}
