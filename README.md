@@ -1,1 +1,1 @@
-# StriverAtoZsheetPractie
+# StriverAtoZsheetPractice
