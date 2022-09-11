@@ -1,7 +1,5 @@
 package StepOne;
 
-import java.util.Arrays;
-
 public class RecursionPractice {
     public static void main(String[] args) {
 //        int[] arr = {1,2,3,4,5,6};
@@ -12,7 +10,14 @@ public class RecursionPractice {
 //        System.out.println(Arrays.toString(arr));
 
 //string palindrone
+        int[] arr = {1,2,3,5,1};
+        System.out.println(checkPalindrone(0, arr));
+    }
 
+    static boolean checkPalindrone( int i,int[] arr) {
+        if(i >= arr.length/2) return true;
+        if (arr[i] != arr[arr.length-i-1]) return false;
+        return checkPalindrone(i + 1,arr);
     }
 
     private static void reversearr2(int i, int n, int[] arr) {
