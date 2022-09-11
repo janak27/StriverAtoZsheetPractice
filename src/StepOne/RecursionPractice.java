@@ -1,10 +1,28 @@
 package StepOne;
 
+import java.util.Arrays;
+
 public class RecursionPractice {
     public static void main(String[] args) {
-        int n = 5;
-        factor2(5,1);
+//        int[] arr = {1,2,3,4,5};
+//        System.out.println(Arrays.toString(arr));
+//        reversearr(0,arr.length-1,arr);
+//        System.out.println(Arrays.toString(arr));
+
+
+
     }
+
+    static void reversearr(int l, int r , int[] arr) {
+        if (l>=r) return;
+        int temp;
+        temp = arr[l];
+        arr[l] = arr[r];
+        arr[r] = temp;
+        reversearr(l+1,r-1,arr);
+    }
+
+
 
     private static void factor2(int n, int fact) {
         if (n==1){
