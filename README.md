@@ -1,4 +1,4 @@
-# View Count -![Visitor Count](https://profile-counter.glitch.me/{janak27}/count.svg)
+# View Count ![Visitor Count](https://profile-counter.glitch.me/{janak27}/count.svg)
 # Striver A to Z sheet Revision
 
 Preparing a study and revision repository for Data structures and algorithms.
