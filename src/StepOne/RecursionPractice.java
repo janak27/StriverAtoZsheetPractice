@@ -4,12 +4,24 @@ import java.util.Arrays;
 
 public class RecursionPractice {
     public static void main(String[] args) {
-//        int[] arr = {1,2,3,4,5};
-//        System.out.println(Arrays.toString(arr));
+        int[] arr = {1,2,3,4,5,6};
+        System.out.println(Arrays.toString(arr));
+        System.out.println(arr.length/2);
 //        reversearr(0,arr.length-1,arr);
-//        System.out.println(Arrays.toString(arr));
+        reversearr2(0,arr.length,arr);
+        System.out.println(Arrays.toString(arr));
 
+//string palindrone
 
+    }
+
+    private static void reversearr2(int i, int n, int[] arr) {
+        if (i >= n/2) return;
+        int temp;
+        temp = arr[i];
+        arr[i] = arr[n-i-1];
+        arr[n-i-1] = temp;
+        reversearr2(i+1,n,arr);
 
     }
 
