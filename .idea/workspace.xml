@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bbf9096e-bdcf-42c2-ac9a-47fee96000aa" name="Changes" comment="addition of code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StepOne/RecursionPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StepOne/RecursionPractice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,12 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -116,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662890869246</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="addition of code">
+      <created>1662895771397</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662895771397</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,7 +154,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/StepOne/RecursionPractice.java</url>
-          <line>78</line>
+          <line>77</line>
           <properties class="StepOne.RecursionPractice" method="recusionBacktrack3">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
