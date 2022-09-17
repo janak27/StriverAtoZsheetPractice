@@ -10,8 +10,21 @@ public class RecursionPractice {
 //        System.out.println(Arrays.toString(arr));
 
 //string palindrone
-        int[] arr = {1,2,3,5,1};
-        System.out.println(checkPalindrone(0, arr));
+//        int[] arr = {1,2,3,5,1};
+//        System.out.println(checkPalindrone(0, arr));
+
+//        fibbonaanci
+        int n = 4;
+        System.out.println(fibo(n));
+    }
+
+   static int fibo(int n) {
+        if(n<=1) return n;
+        int last = fibo(n-1);
+        int slast = fibo(n-2);
+       System.out.println(slast);
+       System.out.println(last);
+        return last+slast;
     }
 
     static boolean checkPalindrone( int i,int[] arr) {
