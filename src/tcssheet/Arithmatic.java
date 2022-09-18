@@ -12,7 +12,7 @@ public class Arithmatic {
         System.out.println(" enter the d");
         float d = sc.nextInt();
 
-        sumofap(n,a,d);
+        System.out.println(sumofap(n,a,d));
     }
 
     static float sumofap(int n, float a, float d) {
@@ -22,6 +22,7 @@ public class Arithmatic {
             a = d + a;
             System.out.println(sum);
         }
+        System.out.println("the sum is" + sum);
         return sum;
     }
 }
