@@ -2,7 +2,7 @@ package LinearSearch;
 
 import java.util.Arrays;
 
-public interface Searchin2Darrays {
+public class Searchin2Darrays {
     public static void main(String[] args) {
         int[][] arr = {
                 {12,45,78},
@@ -13,6 +13,11 @@ public interface Searchin2Darrays {
 
         int[] ans = search(arr,target);
         System.out.println(Arrays.toString(ans));
+        int maxi = max(arr);
+        System.out.println(maxi);
+
+        int mini = min(arr);
+        System.out.println(mini);
     }
 
     static int[] search(int[][] arr, int target){
@@ -22,8 +27,31 @@ public interface Searchin2Darrays {
                     return new int[]{row,col};
                 }
             }
-
         }
         return new int[]{-1,-1};
+    }
+
+    static int max(int[][] arr){
+        int max = Integer.MIN_VALUE;
+        for (int[] ints : arr) {
+            for (int anInt : ints) {
+                if (anInt > max) {
+                    max = anInt;
+                }
+            }
+        }
+        return max;
+    }
+
+    static int min(int[][] arr){
+        int min = Integer.MAX_VALUE;
+        for (int[] ints : arr) {
+            for (int anInt : ints) {
+                if (anInt < min) {
+                    min = anInt;
+                }
+            }
+        }
+        return min;
     }
 }
