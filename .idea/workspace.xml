@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbf9096e-bdcf-42c2-ac9a-47fee96000aa" name="Changes" comment="addition of code">
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinearSearch/Searchin2Darrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearSearch/Searchin2Darrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,7 +53,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Searchin2Darrays">
+  <component name="RunManager" selected="Application.Order">
     <configuration name="Findmin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinearSearch.Findmin" />
       <module name="striverAtoZsheetPractice" />
@@ -66,12 +67,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearch.main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinearSearch.main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.Main" />
       <module name="striverAtoZsheetPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinearSearch.*" />
+          <option name="PATTERN" value="BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Order" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch.Order" />
+      <module name="striverAtoZsheetPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinarySearch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,26 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchinStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinearSearch.SearchinStrings" />
-      <module name="striverAtoZsheetPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LinearSearch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Order" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Searchin2Darrays" />
         <item itemvalue="Application.Findmin" />
         <item itemvalue="Application.SearchinRange" />
-        <item itemvalue="Application.SearchinStrings" />
-        <item itemvalue="Application.LinearSearch.main" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671877458796</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="addition of code">
+      <created>1671883729913</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1671883729913</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -337,6 +345,11 @@
           <url>file://$PROJECT_DIR$/src/LinearSearch/main.java</url>
           <line>18</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/BinarySearch/Main.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
