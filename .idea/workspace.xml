@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbf9096e-bdcf-42c2-ac9a-47fee96000aa" name="Changes" comment="addition of code">
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinarySearch/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -299,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671883729913</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="addition of code">
+      <created>1673107330144</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1673107330146</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
