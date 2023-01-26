@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbf9096e-bdcf-42c2-ac9a-47fee96000aa" name="Changes" comment="addition of code" />
+    <list default="true" id="bbf9096e-bdcf-42c2-ac9a-47fee96000aa" name="Changes" comment="🌱 its growing">
+      <change afterPath="$PROJECT_DIR$/src/AtozProblem/Searching/BinarySearch.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +51,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Armstrong">
+  <component name="RunManager" selected="Application.AtozProblem.Searching.BinarySearch">
     <configuration name="Armstrong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AtozProblem.KnowBasicMaths.Armstrong" />
       <module name="striverAtoZsheetPractice" />
@@ -63,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SearchingAndSortingAlgorithms.BinarySearch" />
+    <configuration name="AtozProblem.Searching.BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AtozProblem.Searching.BinarySearch" />
       <module name="striverAtoZsheetPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SearchingAndSortingAlgorithms.*" />
+          <option name="PATTERN" value="AtozProblem.Searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AtozProblem.Searching.BinarySearch" />
         <item itemvalue="Application.Armstrong" />
         <item itemvalue="Application.CheckPal" />
         <item itemvalue="Application.Reversenum" />
         <item itemvalue="Application.Count" />
-        <item itemvalue="Application.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674419694916</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="🌱 its growing">
+      <created>1674761235780</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1674761235780</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -342,7 +351,8 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="thired commit" />
     <MESSAGE value="addition of code" />
-    <option name="LAST_COMMIT_MESSAGE" value="addition of code" />
+    <MESSAGE value=" its growing" />
+    <option name="LAST_COMMIT_MESSAGE" value=" its growing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
