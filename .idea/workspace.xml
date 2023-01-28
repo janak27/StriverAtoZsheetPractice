@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbf9096e-bdcf-42c2-ac9a-47fee96000aa" name="Changes" comment="🌱 its growing">
-      <change afterPath="$PROJECT_DIR$/src/AtozProblem/Sorting/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AtozProblem/Sorting/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AtozProblem/Sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AtozProblem/Sorting/InsertionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -355,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674819886833</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="🌱 its growing">
+      <created>1674901770810</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1674901770810</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -374,6 +380,7 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="thired commit" />
     <MESSAGE value="addition of code" />
+    <MESSAGE value=" its growing" />
     <MESSAGE value=" its growing" />
     <MESSAGE value=" its growing" />
     <option name="LAST_COMMIT_MESSAGE" value=" its growing" />
