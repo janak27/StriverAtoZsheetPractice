@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbf9096e-bdcf-42c2-ac9a-47fee96000aa" name="Changes" comment="🌱 its growing">
-      <change afterPath="$PROJECT_DIR$/src/TcsPractice/footwearProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TcsPractice/PhoneSolutionProgram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,13 +53,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.footwearProgram">
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AtozProblem.Sorting.InsertionSort" />
+  <component name="RunManager" selected="Application.PhoneSolutionProgram">
+    <configuration name="PhoneSolutionProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TcsPractice.PhoneSolutionProgram" />
       <module name="striverAtoZsheetPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AtozProblem.Sorting.*" />
+          <option name="PATTERN" value="TcsPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhoneSolutionProgram" />
         <item itemvalue="Application.footwearProgram" />
         <item itemvalue="Application.travelAgencyProgram" />
         <item itemvalue="Application.Sumofno" />
         <item itemvalue="Application.average" />
-        <item itemvalue="Application.InsertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679005997230</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="🌱 its growing">
+      <created>1679047627440</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1679047627440</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -395,6 +402,7 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="thired commit" />
     <MESSAGE value="addition of code" />
+    <MESSAGE value=" its growing" />
     <MESSAGE value=" its growing" />
     <MESSAGE value=" its growing" />
     <MESSAGE value=" its growing" />
