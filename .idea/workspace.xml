@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbf9096e-bdcf-42c2-ac9a-47fee96000aa" name="Changes" comment="🌱 its growing">
-      <change afterPath="$PROJECT_DIR$/src/TcsPractice/PhoneSolutionProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TcsPractice/movieprogram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,35 +53,35 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PhoneSolutionProgram">
+  <component name="RunManager" selected="Application.movieprogram">
+    <configuration name="CarProgram (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TcsPractice.CarProgram" />
+      <module name="striverAtoZsheetPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TcsPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TcsPractice.CarProgram" />
+      <module name="striverAtoZsheetPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TcsPractice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PhoneSolutionProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TcsPractice.PhoneSolutionProgram" />
-      <module name="striverAtoZsheetPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TcsPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sumofno" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TcsPractice.Sumofno" />
-      <module name="striverAtoZsheetPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TcsPractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="average" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TcsPractice.average" />
       <module name="striverAtoZsheetPractice" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="travelAgencyProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TcsPractice.travelAgencyProgram" />
+    <configuration name="movieprogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TcsPractice.movieprogram" />
       <module name="striverAtoZsheetPractice" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.movieprogram" />
+        <item itemvalue="Application.CarProgram (1)" />
+        <item itemvalue="Application.CarProgram" />
         <item itemvalue="Application.PhoneSolutionProgram" />
         <item itemvalue="Application.footwearProgram" />
-        <item itemvalue="Application.travelAgencyProgram" />
-        <item itemvalue="Application.Sumofno" />
-        <item itemvalue="Application.average" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679047627440</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="🌱 its growing">
+      <created>1679050220165</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1679050220165</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
