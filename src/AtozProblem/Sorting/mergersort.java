@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class mergersort {
     public static void main(String[] args) {
-        int[] arr = {5,8,9,7,4,1,3};
+        int[] arr = {4,3,2,1};
         System.out.println(Arrays.toString(arr));
         mergesort(arr,0, arr.length-1);
         System.out.println(Arrays.toString(arr));
@@ -45,7 +45,7 @@ public class mergersort {
             right++;
         }
         for (int i = low; i <= high ; i++) {
-            arr[i] = temp.get(i-low);
+            arr[i] = temp.get(i - low );
         }
     }
 }
