@@ -1,24 +1,23 @@
 package KunalKushwahaDSA.LinkedList;
 
-import javax.swing.plaf.nimbus.NimbusStyle;
-
 class Implementation{
     public static void main(String[] args) {
-//        LinkedList list = new LinkedList();
-//        list.insertAtFirst(3);
-//        list.insertAtFirst(4);
-//        list.insertAtFirst(5);
-//        list.insertAtFirst(6);
-//        list.insertAtFirst(7);
-//        list.insertAtLast(8);
-//        list.insertAtIndex(99,4);
+        LinkedList list = new LinkedList();
+        list.insertAtFirst(3);
+        list.insertAtFirst(4);
+        list.insertAtFirst(5);
+        list.insertAtFirst(6);
+        list.insertAtFirst(7);
+        list.insertAtLast(8);
+        list.insertAtIndex(99,4);
+        list.insertRecursion(88,4, list.head);
 //        list.display();
 //        System.out.println(list.deleteAtFirst());
 //        list.display();
 //        System.out.println(list.deleteAtLast());
 //        list.display();
 //        System.out.println(list.deleteAtIndex(2));
-//        list.display();
+        list.display();
 
 //        DoublyLL list = new DoublyLL();
 //
@@ -34,16 +33,16 @@ class Implementation{
 //        list.displayDLLreverse();
 //        list.deleteAtNode(9);
 //        list.displayDLL();
-        CircularLL list = new CircularLL();
-
-        list.InsertValue(5);
-        list.InsertValue(2);
-        list.InsertValue(1);
-        list.InsertValue(7);
-        list.InsertValue(8);
-        list.displayCLL();
-        list.delete(1);
-        list.displayCLL();
+//        CircularLL list = new CircularLL();
+//
+//        list.InsertValue(5);
+//        list.InsertValue(2);
+//        list.InsertValue(1);
+//        list.InsertValue(7);
+//        list.InsertValue(8);
+//        list.displayCLL();
+//        list.delete(1);
+//        list.displayCLL();
 
 
     }
@@ -71,6 +70,23 @@ public class LinkedList {
         }
         return new_node;
     }
+    public Node insertRecursion(int value, int index, Node head){
+        if (head == null){
+            Node temp = new Node(value);
+            return temp;
+        }
+        if (index == 1){
+            Node new_node = new Node(value);
+            new_node.next = head;
+            head = new_node;
+            return  head;
+        }
+        else {
+            head.next = insertRecursion(value,index- 1,head.next);
+        }
+        return head;
+    }
+
     public int deleteAtIndex(int index){
         if (index==0){
             return deleteAtFirst();
