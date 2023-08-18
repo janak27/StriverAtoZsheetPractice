@@ -1,4 +1,4 @@
-package KunalKushwahaDSA.Recursion01;
+package KunalKushwahaDSA.Recursion.basics;
 
 public class revdig {
     public static void main(String[] args) {
