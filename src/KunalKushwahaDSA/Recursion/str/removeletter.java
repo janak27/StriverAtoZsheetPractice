@@ -5,6 +5,7 @@ public class removeletter {
         String s = skip("appleappappleappppa");
         System.out.println(s);
     }
+
     static String skip(String test){
         if (test.isEmpty()){
             return "";
